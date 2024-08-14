@@ -1,11 +1,16 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 #include "CreateRedirectorAction.h"
+
 #include "ContentBrowserModule.h"
 #include "Editor.h"
 #include "EditorAssetLibrary.h"
+#include "Engine/Blueprint.h"
 #include "PropertyCustomizationHelpers.h"
 #include "AssetRegistry/AssetRegistryModule.h"
+#include "Framework/MultiBox/MultiBoxBuilder.h"
 #include "Internationalization/Regex.h"
+#include "UObject/PackageReload.h"
+#include "Widgets/Input/SButton.h"
 #include "Widgets/Input/SFilePathPicker.h"
 
 #define LOCTEXT_NAMESPACE "FCreateRedirectorsModule"
